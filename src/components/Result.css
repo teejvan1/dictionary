@@ -36,3 +36,27 @@
   font-size: 1.8rem;
   line-height: 1.6;
 }
+
+/* 1200 */
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* 900 */
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50;
+  }
+}
+
+/* 600 */
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 50%;
+  }
+  .Result {
+    padding: 4.8rem 3rem;
+  }
+}

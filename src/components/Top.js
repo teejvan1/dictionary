@@ -17,7 +17,7 @@ function Top({ outerSubmit }) {
       <nav className='Top-1'>
         <img src={logo} alt='logo' />
         &nbsp;&nbsp;
-        <h1>Dictionary.real</h1>
+        <h1>Real-Dictionary</h1>
       </nav>
       <section className='Top-2'>
         <form onSubmit={innerSubmit}>

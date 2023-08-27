@@ -2,7 +2,7 @@ import './Result.css'
 
 function Result({ def }) {
   return (
-    <div className='Result'>
+    <main className='Result'>
       {def.length === 0 ? (
         <div className='empty'>&nbsp;</div>
       ) : def[0].hwi === undefined ? (
@@ -28,7 +28,7 @@ function Result({ def }) {
             ))}
         </ol>
       )}
-    </div>
+    </main>
   )
 }
 

@@ -22,7 +22,7 @@ function Result({ def }) {
             .map(data => (
               <>
                 {data.map(data => (
-                  <li>{data}</li>
+                  <li>&bull; {data}</li>
                 ))}
               </>
             ))}

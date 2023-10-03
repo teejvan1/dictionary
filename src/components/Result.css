@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
 .Result {
   padding: 4.8rem 0;
-  background-color: #f3f3f3;
+  background-color: #0f3850;
 }
 
 .empty {
   height: 60vh;
+  margin: -4.8rem 0;
+  background-color: white;
 }
 
 .Result h2 {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  text-transform: capitalize;
   font-size: 4.8rem;
   margin: 0 auto;
   max-width: 70rem;

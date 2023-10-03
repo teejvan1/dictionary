@@ -15,25 +15,28 @@ function Top({ outerSubmit }) {
   return (
     <header className='Top'>
       <nav className='Top-1'>
-        <img src={logo} alt='logo' />
-        &nbsp;&nbsp;
-        <h1>Real-Dictionary</h1>
+        <a href='/'>
+          <img src={logo} alt='logo' />
+        </a>
+        <h1>REAL DICTIONARY</h1>
       </nav>
       <section className='Top-2'>
-        <form onSubmit={innerSubmit}>
-          <input
-            autoFocus
-            value={word}
-            placeholder='Please type the word you want to get definition of'
-            type='text'
-            onChange={e => {
-              setWord(e.target.value)
-            }}
-          />
-          <button>
-            <img src={search} alt='search' />
-          </button>
-        </form>
+        <div className='form-container'>
+          <form onSubmit={innerSubmit}>
+            <input
+              autoFocus
+              value={word}
+              placeholder='Please type the word you want to get definition of'
+              type='text'
+              onChange={e => {
+                setWord(e.target.value)
+              }}
+            />
+            <button>
+              <img src={search} alt='search' />
+            </button>
+          </form>
+        </div>
       </section>
     </header>
   )

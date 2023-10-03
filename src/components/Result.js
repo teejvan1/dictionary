@@ -1,6 +1,7 @@
 import './Result.css'
 
 function Result({ def }) {
+  console.log({ def })
   return (
     <main className='Result'>
       {def.length === 0 ? (
@@ -8,7 +9,7 @@ function Result({ def }) {
       ) : def[0].hwi === undefined ? (
         ''
       ) : (
-        <h2>{def[0].hwi.hw}</h2>
+        <h2>{def[0].hwi.hw.replaceAll('*', '')}</h2>
       )}
 
       {def.length === 0 ? (

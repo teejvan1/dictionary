@@ -67,4 +67,7 @@
   .Result {
     padding: 0rem;
   }
+  .empty {
+    margin: 0;
+  }
 }
